@@ -7,7 +7,7 @@
 set -x
 
 echo "Installing mpd..."
-sudo apt-get install mpd
+sudo apt-get install -y mpd
 
 echo "Updating mpd.conf"
 sudo cp ./config/mpd.conf /etc/
